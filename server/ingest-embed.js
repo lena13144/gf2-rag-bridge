@@ -1,7 +1,7 @@
 // chunks.jsonl → index/（meta.json + vectors.f32）
 // 批量调 SiliconFlow embedding，断点续跑
 const fs=require('fs'),path=require('path');
-const KEY='[REDACTED]';
+const KEY='''';
 const BASE='https://api.siliconflow.cn/v1';
 const MODEL=process.env.EMBED_MODEL||'Qwen/Qwen3-Embedding-8B';
 const DIR=__dirname+'/'+(process.env.IDX||'index');

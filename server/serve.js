@@ -8,10 +8,10 @@ const CFG_FILE=path.join(__dirname,'config.json');
 /* ---------- 可持久化动态配置 ---------- */
 const defaultCfg={
   chatBase:'https://token-plan.maas.qianwenaiapi.com/compatible-mode/v1',
-  chatKey:'sk-sp-H.HMXPMP.jkPB.MEQCIEzt_xE_sQkb2uOzun6XjRvu1-XVwli1ZbSNCJ-TCopdAiBRx9OHLabI1oNZFpQnNvGvVmN4u5irJeFlq8QafHHbxA',
+  chatKey:'''-XVwli1ZbSNCJ-TCopdAiBRx9OHLabI1oNZFpQnNvGvVmN4u5irJeFlq8QafHHbxA',
   chatModel:process.env.CHAT_MODEL||'deepseek-v4.1-flash-1017',
   embedBase:'https://api.siliconflow.cn/v1',
-  embedKey:'[REDACTED]',
+  embedKey:'''',
   embedModel:process.env.EMBED_MODEL||'Qwen/Qwen3-Embedding-8B',
   rerankModel:process.env.RERANK_MODEL||'Qwen/Qwen3-Reranker-8B'
 };
