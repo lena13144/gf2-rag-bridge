@@ -1,0 +1,6 @@
+config.json
+index/
+index2/
+*.f32
+*.log
+node_modules/
