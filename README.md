@@ -12,8 +12,7 @@
 - `extension/` SillyTavern 原生扩展（放 `public/scripts/extensions/third-party/gf2-rag-bridge/`）
   - 配置面板：RAG 地址、守门员/Embedding/Rerank 的 URL/Key/模型
   - `generate_interceptor` 生成前同步注入
-- `data/` 章节与角色目录（gatekeeper 系统提示词用）
-- `worldbooks/` 生成的世界书 JSON（导入 SillyTavern 使用）
+- 剧情数据（`data/` 章节与角色目录、`worldbooks/` 世界书 JSON）不随仓库分发，需自备
 
 ## 部署
 

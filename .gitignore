@@ -4,3 +4,7 @@ index2/
 *.f32
 *.log
 node_modules/
+
+# 剧情数据与生成的世界书不入库
+data/
+worldbooks/
